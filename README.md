@@ -64,6 +64,12 @@ Stage 2: 核心交付 (The "AI Moment") —— 释放 30%
 * 资金流向：30% 释放给服务方。  
 * 商业逻辑：这是服务的核心价值点。“不见兔子不撒鹰”，彻底杜绝虚假承诺。
 
+<p align="center">
+  <img src="images/AIverify.gif" 
+       width="500" 
+  <br>
+</p>
+
 Stage 3: 完美结案 (Enrollment) —— 释放 30%  
 * 触发条件：学生确认入学或服务期结束无异议。  
 * 资金流向：剩余 30% 释放。  
