@@ -33,7 +33,7 @@ OfferLock 是一款专为 **500 亿美元留学服务市场** 打造的去中心
 
 Built with a focus on **"Invisible Web3 Experience"**, we deeply leverage the core components of the Kite AI ecosystem:
 
-本项目专注于构建**“无感 Web3 体验”**，深度应用了 Kite AI 生态核心组件：
+本项目专注于构建“无感 Web3 体验”，深度应用了 Kite AI 生态核心组件：
 
 - **Settlement Layer (结算层)**  
   Deployed on Kite AI Testnet.  
