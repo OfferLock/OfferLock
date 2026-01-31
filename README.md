@@ -29,7 +29,7 @@ OfferLock 是一款专为 **500 亿美元留学服务市场** 打造的去中心
 - **30% AI Verified (AI 自动核验)** : Automatically released only when the **AI Oracle** validates the university offer letter's authenticity. / 当 **AI 预言机** 验证录取通知书真实性后自动释放，实现硬核风控。
 - **30% Completion (入学结案)** : Released upon successful enrollment to close the service loop. / 学生确认入学后释放尾款，确保服务最终闭环。
 
-## 🛠 Technical Stack / 技术架构
+## 🛠 2. Technical Stack / 技术架构
 
 Built with a focus on **"Invisible Web3 Experience"**, we deeply leverage the core components of the Kite AI ecosystem:
 
@@ -49,7 +49,7 @@ Built with a focus on **"Invisible Web3 Experience"**, we deeply leverage the co
   An LLM-based AI Oracle that converts off-chain PDF data into on-chain trust signals.  
   **基于大语言模型的 AI 预言机，将 PDF 录取通知书转化为链上可信信号，触发合约状态变更。**
 
-## 🚀 Quick Start / 快速开始
+## 🚀 3. Quick Start / 快速开始
 
 ### Deployment Information / 部署信息
 
@@ -75,7 +75,7 @@ npm install
 # Start development server (usually opens at http://localhost:5173 or similar)
 npm run dev
 ```
-## 👥 Team / 团队成员
+## 👥 4. Team / 团队成员
 
 We are a passionate, multi-disciplinary team building the future of Invisible Web3 experiences on Kite AI.
 
