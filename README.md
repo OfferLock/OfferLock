@@ -17,9 +17,12 @@ OfferLock 是一款专为 **500 亿美元留学服务市场** 打造的去中心
 
 ### The 40-30-30 "Safety First" Model / 40-30-30 风险反转模型
 
-
-【待增加动效图】
-
+<p align="center">
+  <img src="images/433.gif" 
+       width="680" 
+       style="border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.12);"
+       alt="40-30-30 风险反转模型演示">
+</p>
 
 - **40% Signing (签约启动)**: Funds released to secure the agreement and cover initial operations. / 签约即释放，保障服务正式启动及基础运营成本。
 - **30% AI Verified (AI 自动核验)**: Automatically released only when the **AI Oracle** validates the university offer letter's authenticity. / 当 **AI 预言机** 验证录取通知书真实性后自动释放，实现硬核风控。
