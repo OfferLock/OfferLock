@@ -19,7 +19,7 @@ OfferLock 是一款专为 **500 亿美元留学服务市场** 打造的去中心
 
 <p align="center">
   <img src="images/433.gif" 
-       width="400" 
+       width="300" 
        alt="40-30-30 风险反转模型示意：安全优先">
   <br>
   <small>40% 签约启动 → 30% AI核验 → 30% 入学结案</small>
@@ -74,3 +74,24 @@ npm install
 
 # Start development server (usually opens at http://localhost:5173 or similar)
 npm run dev
+```
+## 👥 Team / 团队成员
+
+We are a passionate, multi-disciplinary team building the future of Invisible Web3 experiences on Kite AI.
+
+我们是一支跨领域、充满热情的团队，致力于在 Kite AI 上打造无感 Web3 体验。
+
+| Role / 角色                              | Name / 姓名          | X (Twitter)                          | Telegram             | Bio Snippet / 简介 |
+|------------------------------------------|----------------------|--------------------------------------|----------------------|--------------------|
+| Product Strategist & Business Architect<br>产品战略与商业架构设计 | Alex Fan            | [@itsAlexFan](https://x.com/itsAlexFan) | @itsAlexFan         | Cornell alum | Law + Finance + Web3 + AI |
+| Project Design & Industry Analyst<br>项目核心构想设计与行业分析 | Riley琦琦           | [@rileyqiqi](https://x.com/rileyqiqi)   | @rrrileywang        | — |
+| Technical Support & Product Promotion<br>技术支持与产品宣传 | Fred Huang          | [@FrankFred834567](https://x.com/FrankFred834567) | @frankhyn123     | Web3 / Blockchain / Crypto Community Builder |
+| Smart Contract Development & On-chain Integration<br>智能合约开发与链上集成 | Joe Chen            | [@cyz496](https://x.com/cyz496)         | @cydot0906          | Web3 新人｜PolyU 元宇宙科技 |
+| Web3 Frontend Development & UI/UX<br>Web3前端开发 & UI/UX | 虎虎 (ToraInX)      | [@planning8848](https://x.com/planning8848) | —                | — |
+
+### Connect with the team / 联系我们
+Feel free to reach out on X or Telegram for collaborations, feedback, or just to say hi! 🚀
+
+我们欢迎任何合作、反馈或交流～
+
+Built with ❤️ by the OfferLock team on Kite AI Testnet.
