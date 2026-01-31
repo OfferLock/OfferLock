@@ -29,7 +29,87 @@ OfferLock 是一款专为 **500 亿美元留学服务市场** 打造的去中心
 - **30% AI Verified (AI 自动核验)** : Automatically released only when the **AI Oracle** validates the university offer letter's authenticity. / 当 **AI 预言机** 验证录取通知书真实性后自动释放，实现硬核风控。
 - **30% Completion (入学结案)** : Released upon successful enrollment to close the service loop. / 学生确认入学后释放尾款，确保服务最终闭环。
 
-## 🛠 2. Technical Stack / 技术架构
+## 📖 2. 项目白皮书 & 核心逻辑 / Product Whitepaper & Core Logic
+
+**Code is Law. Trustless Study Abroad Payment.**  
+基于 Kite AI 链的留学资金可编程托管协议，用代码重构 500 亿美金市场的支付信任。
+
+### 1. 为什么做这个？(Vision & Pain Points)
+
+我们不是在做一个简单的支付工具，我们是在解决“信任危机”。
+
+痛点一：资金裸奔  
+* 传统模式下，学生需预付 100% 费用给中介。一旦中介跑路或服务注水，学生面临全额损失（行业退费纠纷率 >15%）。  
+* OfferLock 方案：资金不进中介口袋，而是锁定在链上合约。
+
+痛点二：交付无标准  
+* 中介服务是“非标品”，结果难以量化。  
+* OfferLock 方案：引入 AI 验证层，把Offer变成触发打款的唯一标准。
+
+痛点三：门槛过高  
+* 留学生不懂 Crypto，没有 Gas 费。  
+* OfferLock 方案：使用 Kite AI Account Abstraction SDK，实现无感支付（Gasless）
+
+### 2. 核心机制：三阶段资金释放模型 (The 40-30-30 Protocol)
+
+我们重构了传统留学中介的收费模式，提出 "Risk-Reversal"（风险反转） 商业模型。通过智能合约，将原本由学生承担的 100% 风险，转变为按交付结果付费的公平博弈。
+
+Stage 1: 启动与签约 (Initiation) —— 释放 40%  
+* 触发条件：学生存入资金并签署合约。  
+* 资金流向：40% 立即释放给服务方。  
+* 商业逻辑：覆盖中介的基础人力成本（文书、选校、沟通），确保服务商有动力启动服务，不饿死优质中介。
+
+Stage 2: 核心交付 (The "AI Moment") —— 释放 30%  
+* 触发条件：AI Oracle 验证通过（学生上传 Offer PDF -> AI 识别真伪 -> 触发链上信号）。  
+* 资金流向：30% 释放给服务方。  
+* 商业逻辑：这是服务的核心价值点。“不见兔子不撒鹰”，彻底杜绝虚假承诺。
+
+Stage 3: 完美结案 (Enrollment) —— 释放 30%  
+* 触发条件：学生确认入学或服务期结束无异议。  
+* 资金流向：剩余 30% 释放。  
+* 商业逻辑：确保服务的完整性（协助签证、宿舍等后续事宜），防止“管杀不管埋”。
+
+### 3. 技术架构 (Technical Architecture)
+
+OfferLock 采用 Web3 + AI 混合架构，实现“无感 Web3 体验”。
+
+* 结算层 (Settlement Layer)：  
+  部署于 Kite AI Chain。  
+  核心合约：OfferLock Escrow（非托管资金池，无 Admin 私钥后门）。
+
+* 验证层 (Verification Layer)：  
+  Off-chain AI Agent：基于 LLM的文档分析引擎，提取 PDF 关键信息（学校、姓名、日期）。  
+  On-chain Oracle：将 AI 的验证结果（True/False）安全地上链，触发合约状态变更。
+
+* 体验层 (UX Layer)：  
+  集成 Kite Account Abstraction SDK。  
+  Gasless Payment：通过 Paymaster 代付 Gas，学生无需持有平台币，仅需 USDT 即可使用。
+
+### 4. 法律与合规设计 (Legal Engineering)
+
+资金非托管 (Non-Custodial)：OfferLock 平台不触碰用户资金。所有资金锁定在智能合约中，只有代码逻辑（Code）能移动资金，平台倒闭不影响用户资产安全。
+
+### 5. 市场策略 (Go-to-Market)
+
+我们不试图说服傲慢的传统巨头，我们旨在赋能挑战者。
+
+* 目标客户：独立留学顾问、精品工作室、Web3 社区教育机构。  
+* 核心价值："Trust as a Service" (以信任为服务)。  
+  * 对于中小中介：使用 OfferLock = 获得银行级的信任背书 = 降低获客成本。  
+  * 对于学生：获得 100% 的资金安全感。
+
+### 6. 路线图 (Roadmap)
+
+* Phase 1 (Hackathon MVP)：  
+  * 实现核心 40-30-30 资金流转。  
+  * 跑通 PDF 上传 -> AI 验证 -> 自动打款流程。  
+  * 完成 Kite AI 账户抽象集成。
+
+* Phase 2 (V2.0)：  
+  * SLA Editor：允许中介自定义分期比例（如 50-50）。  
+  * Reputation System：基于链上交付记录的中介信用评分体系。
+
+## 🛠 3. Technical Stack / 技术架构
 
 Built with a focus on **"Invisible Web3 Experience"**, we deeply leverage the core components of the Kite AI ecosystem:
 
@@ -49,7 +129,7 @@ Built with a focus on **"Invisible Web3 Experience"**, we deeply leverage the co
   An LLM-based AI Oracle that converts off-chain PDF data into on-chain trust signals.  
   **基于大语言模型的 AI 预言机，将 PDF 录取通知书转化为链上可信信号，触发合约状态变更。**
 
-## 🚀 3. Quick Start / 快速开始
+## 🚀 4. Quick Start / 快速开始
 
 ### Deployment Information / 部署信息
 
@@ -75,7 +155,7 @@ npm install
 # Start development server (usually opens at http://localhost:5173 or similar)
 npm run dev
 ```
-## 👥 4. Team / 团队成员
+## 👥 5. Team / 团队成员
 
 We are a passionate, multi-disciplinary team building the future of Invisible Web3 experiences on Kite AI.
 
