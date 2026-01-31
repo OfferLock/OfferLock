@@ -29,7 +29,7 @@ OfferLock 是一款专为 **500 亿美元留学服务市场** 打造的去中心
 - **30% AI Verified (AI 自动核验)** : Automatically released only when the **AI Oracle** validates the university offer letter's authenticity. / 当 **AI 预言机** 验证录取通知书真实性后自动释放，实现硬核风控。
 - **30% Completion (入学结案)** : Released upon successful enrollment to close the service loop. / 学生确认入学后释放尾款，确保服务最终闭环。
 
-- ## 🛠 Technical Stack / 技术架构
+## 🛠 Technical Stack / 技术架构
 
 Built with a focus on **"Invisible Web3 Experience"**, we deeply leverage the core components of the Kite AI ecosystem:
 
@@ -48,3 +48,29 @@ Built with a focus on **"Invisible Web3 Experience"**, we deeply leverage the co
 - **Verification Layer (验证层)**  
   An LLM-based AI Oracle that converts off-chain PDF data into on-chain trust signals.  
   **基于大语言模型的 AI 预言机，将 PDF 录取通知书转化为链上可信信号，触发合约状态变更。**
+
+## 🚀 Quick Start / 快速开始
+
+### Deployment Information / 部署信息
+
+- **Contract Address (合约地址)**: `0xDECEd7A01D61aCcE2C51F86f6a816757E762d1F0`
+- **Network (网络)**: Kite AI Testnet (Chain ID: 2368)
+- **Explorer (浏览器)**: Verified Contract on [Kitescan](https://testnet.kitescan.ai/address/0xDECEd7A01D61aCcE2C51F86f6a816757E762d1F0)  
+  （直接点击查看合约代码、交易记录等）
+
+### Local Development / 本地开发
+
+```bash
+# Clone the repository (replace with your actual GitHub repo URL once created)
+git clone https://github.com/yanzhuchen96-creator/offerlock.git
+
+# or if using SSH:
+# git clone git@github.com:[your-username]/offerlock.git
+
+cd offerlock
+
+# Install dependencies
+npm install
+
+# Start development server (usually opens at http://localhost:5173 or similar)
+npm run dev
