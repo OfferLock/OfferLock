@@ -75,27 +75,11 @@ Stage 3: 完美结案 (Enrollment) —— 释放 30%
 * 资金流向：剩余 30% 释放。  
 * 商业逻辑：确保服务的完整性（协助签证、宿舍等后续事宜），防止“管杀不管埋”。
 
-### 3. 技术架构 (Technical Architecture)
-
-OfferLock 采用 Web3 + AI 混合架构，实现“无感 Web3 体验”。
-
-* 结算层 (Settlement Layer)：  
-  部署于 Kite AI Chain。  
-  核心合约：OfferLock Escrow（非托管资金池，无 Admin 私钥后门）。
-
-* 验证层 (Verification Layer)：  
-  Off-chain AI Agent：基于 LLM的文档分析引擎，提取 PDF 关键信息（学校、姓名、日期）。  
-  On-chain Oracle：将 AI 的验证结果（True/False）安全地上链，触发合约状态变更。
-
-* 体验层 (UX Layer)：  
-  集成 Kite Account Abstraction SDK。  
-  Gasless Payment：通过 Paymaster 代付 Gas，学生无需持有平台币，仅需 USDT 即可使用。
-
-### 4. 法律与合规设计 (Legal Engineering)
+### 3. 法律与合规设计 (Legal Engineering)
 
 资金非托管 (Non-Custodial)：OfferLock 平台不触碰用户资金。所有资金锁定在智能合约中，只有代码逻辑（Code）能移动资金，平台倒闭不影响用户资产安全。
 
-### 5. 市场策略 (Go-to-Market)
+### 4. 市场策略 (Go-to-Market)
 
 我们不试图说服傲慢的传统巨头，我们旨在赋能挑战者。
 
@@ -104,7 +88,7 @@ OfferLock 采用 Web3 + AI 混合架构，实现“无感 Web3 体验”。
   * 对于中小中介：使用 OfferLock = 获得银行级的信任背书 = 降低获客成本。  
   * 对于学生：获得 100% 的资金安全感。
 
-### 6. 路线图 (Roadmap)
+### 5. 路线图 (Roadmap)
 
 * Phase 1 (Hackathon MVP)：  
   * 实现核心 40-30-30 资金流转。  
