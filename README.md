@@ -135,6 +135,20 @@ Built with a focus on **"Invisible Web3 Experience"**, we deeply leverage the co
   An LLM-based AI Oracle that converts off-chain PDF data into on-chain trust signals.  
   **基于大语言模型的 AI 预言机，将 PDF 录取通知书转化为链上可信信号，触发合约状态变更。**
 
+#### 合约验证与释放逻辑 / Contract Verification & Release Logic
+
+核心释放函数 `releaseNextMilestone` 由 auditor 调用，包含多重验证，确保只有在条件满足时才释放资金给中介。
+
+**🔍 关键验证点（verify 部分）总结：**
+
+- `onlyAuditor`：只有 auditor 能调用（这是最主要的“验证权限”控制）
+- `onlyExistingOrder`：订单必须存在
+- `require(o.status == Funded || InProgress)`：订单必须已 Funded 或进行中
+- `require(o.currentMilestone < milestoneAmounts.length)`：还有未完成的里程碑
+- `require(o.depositedAmount - o.releasedAmount >= amount)`：剩余余额足够本次释放
+
+这些检查点共同实现了“AI 验证后触发释放”的安全闭环，防止未授权、余额不足或状态错误的资金释放。
+
 ## 🚀 4. Quick Start / 快速开始
 
 ### Deployment Information / 部署信息
