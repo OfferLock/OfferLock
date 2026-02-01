@@ -182,3 +182,8 @@ Feel free to reach out on X or Telegram for collaborations, feedback, or just to
 
 Built with ❤️ by the OfferLock team on Kite AI Testnet.
 
+## License / 开源协议
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+本项目采用 MIT 许可协议 - 详细内容请参阅仓库中的 [LICENSE](LICENSE) 文件。
