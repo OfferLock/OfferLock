@@ -4,6 +4,11 @@ OfferLock: Trustless Study Abroad Payment Protocol
 
 ## 零风险留学支付托管协议
 Code is Law. Trustless Study Abroad Payment. 代码即法律。让留学支付不再有信任危机。
+## Demo 视频
+
+点击图片观看完整演示（YouTube）：
+
+[![Demo Video](https://img.youtube.com/vi/TvpC55reank/maxresdefault.jpg)](https://youtu.be/TvpC55reank)
 
 [Kite AI Chain](https://img.shields.io/badge/Network-Kite%20AI%20Testnet-blue)
 
