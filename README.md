@@ -170,7 +170,7 @@ We are a passionate, multi-disciplinary team building the future of Invisible We
 | Role / 角色                              | Name / 姓名          | X (Twitter)                          | Telegram             | Bio Snippet / 简介 |
 |------------------------------------------|----------------------|--------------------------------------|----------------------|--------------------|
 | Product Strategist & Business Architect<br>产品战略与商业架构设计 | Alex Fan            | [@itsAlexFan](https://x.com/itsAlexFan) | @itsAlexFan         | Cornell alum | Law + Finance + Web3 + AI |
-| Project Design & Industry Analyst<br>项目核心构想设计与行业分析 | Riley琦琦           | [@rileyqiqi](https://x.com/rileyqiqi)   | @rrrileywang        | — |
+| Project Design & Industry Analyst<br>项目核心构想设计与行业分析 | Riley琦琦           | [@rileyqiqi](https://x.com/rileyqiqi)   | @rrrileywang        | university of ediburgh |
 | Technical Support & Product Promotion<br>技术支持与产品宣传 | Fred Huang          | [@FrankFred834567](https://x.com/FrankFred834567) | @frankhyn123     | Web3 / Blockchain / Crypto Community Builder |
 | Smart Contract Development & On-chain Integration<br>智能合约开发与链上集成 | Joe Chen            | [@cyz496](https://x.com/cyz496)         | @cydot0906          | Web3 新人｜PolyU 元宇宙科技 |
 | Web3 Frontend Development & UI/UX<br>Web3前端开发 & UI/UX | 虎虎 (ToraInX)      | [@planning8848](https://x.com/planning8848) | —                | — |
