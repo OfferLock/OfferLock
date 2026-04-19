@@ -1,5 +1,10 @@
 # OfferLock
 OfferLock: Trustless Study Abroad Payment Protocol
+# Project Name
+
+[中文版](README_zh.md) | English
+
+---
 
 
 ## 零风险留学支付托管协议
