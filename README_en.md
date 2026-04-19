@@ -4,7 +4,7 @@ OfferLock: Trustless Study Abroad Payment Protocol
 
 # Project Name
 
-[中文版](README_zh.md) | English
+[中文版](README_zh.md) | English (README_en.md)
 
 ---
 
@@ -41,7 +41,7 @@ OfferLock is a decentralized escrow protocol designed for the **$50B study abroa
 
 OfferLock is a decentralized escrow protocol specifically designed for the **$50 billion study abroad services market**. By combining **AI Oracle** with **Kite AI Smart Contracts** and utilizing a risk-reversal payment model, we fundamentally resolve the trust gap between international students and intermediary agencies.
 
-### The 40-30-30 "Safety First" Model / 40-30-30 风险反转模型
+### The 40-30-30 "Safety First" Model / 40-30-30 
 
 <p align="center">
   <img src="images/433.gif"
@@ -51,11 +51,11 @@ OfferLock is a decentralized escrow protocol specifically designed for the **$50
   <small>40% Signing → 30% AI Verification → 30% Enrollment Completion</small>
 </p>
 
-- **40% Signing (签约启动)** : Funds released to secure the agreement and cover initial operations. / 签约即释放，保障服务正式启动及基础运营成本。
-- **30% AI Verified (AI 自动核验)** : Automatically released only when the **AI Oracle** validates the university offer letter's authenticity. / 当 **AI 预言机** 验证录取通知书真实性后自动释放，实现硬核风控。
-- **30% Completion (入学结案)** : Released upon successful enrollment to close the service loop. / 学生确认入学后释放尾款，确保服务最终闭环。
+- **40% Signing ** : Funds released to secure the agreement and cover initial operations. /。
+- **30% AI Verified ** : Automatically released only when the **AI Oracle** validates the university offer letter's authenticity. / 当 **AI 预言机** 验证录取通知书真实性后自动释放，实现硬核风控。
+- **30% Completion** : Released upon successful enrollment to close the service loop. / 学生确认入学后释放尾款，确保服务最终闭环。
 
-## 📖 2. Product Whitepaper & Core Logic / 项目白皮书 & 核心逻辑
+## 📖 2. Product Whitepaper & Core Logic / 
 
 **Code is Law. Trustless Study Abroad Payment.**  
 A programmable escrow protocol for study abroad funds based on the Kite AI chain, using code to rebuild payment trust in the $50 billion market.
