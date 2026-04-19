@@ -46,14 +46,14 @@ OfferLock is a decentralized escrow protocol specifically designed for the **$50
 <p align="center">
   <img src="images/433.gif"
        width="300"
-       alt="40-30-30 风险反转模型示意：安全优先">
+       alt="40-30-30 Risk reversal model illustration: Safety first">
   <br>
   <small>40% Signing → 30% AI Verification → 30% Enrollment Completion</small>
 </p>
 
 - **40% Signing ** : Funds released to secure the agreement and cover initial operations. /。
-- **30% AI Verified ** : Automatically released only when the **AI Oracle** validates the university offer letter's authenticity. / 当 **AI 预言机** 验证录取通知书真实性后自动释放，实现硬核风控。
-- **30% Completion** : Released upon successful enrollment to close the service loop. / 学生确认入学后释放尾款，确保服务最终闭环。
+- **30% AI Verified ** : Automatically released only when the **AI Oracle** validates the university offer letter's authenticity. / Once the **AI oracle** verifies the authenticity of the admission notice, it will be automatically released, achieving robust risk control.
+- **30% Completion** : Released upon successful enrollment to close the service loop. / The final payment is released after the student confirms enrollment, ensuring a complete service loop.
 
 ## 📖 2. Product Whitepaper & Core Logic / 
 
@@ -137,17 +137,17 @@ Built with a focus on **"Invisible Web3 Experience"**, we deeply leverage the co
 
 This project focuses on building an "Invisible Web3 Experience," deeply utilizing the core components of the Kite AI ecosystem:
 
-- **Settlement Layer (结算层)**  
+- **Settlement Layer **  
   Deployed on Kite AI Testnet.  
   Non-custodial escrow ensures platform-level security.  
   **Deployed on the Kite AI Testnet, utilizing a non-custodial protocol to ensure funds cannot be misappropriated by the platform.**
 
-- **UX Innovation (体验层)**  
+- **UX Innovation**  
   Integrated Kite Account Abstraction (AA) SDK for Gasless Payments.  
   Allows students to pay with USDT without holding native tokens.  
   **Integrated Kite Account Abstraction SDK, enabling gasless payments via Paymaster, allowing international students to complete transactions without holding native tokens.**
 
-- **Verification Layer (验证层)**  
+- **Verification Layer**  
   An LLM-based AI Oracle that converts off-chain PDF data into on-chain trust signals.  
   **An AI Oracle based on a Large Language Model, converting PDF admission letters into on-chain trust signals to trigger contract state changes.**
 
@@ -165,16 +165,16 @@ The core release function `releaseNextMilestone` is called by the auditor and in
 
 These checkpoints collectively implement a secure closed loop of "AI verification triggers release," preventing unauthorized, insufficient balance, or state-error fund releases.
 
-## 🚀 4. Quick Start / 快速开始
+## 🚀 4. Quick Start 
 
-### Deployment Information / 部署信息
+### Deployment Information 
 
-- **Contract Address (合约地址)**: `0xDECEd7A01D61aCcE2C51F86f6a816757E762d1F0`
-- **Network (网络)**: Kite AI Testnet (Chain ID: 2368)
-- **Explorer (浏览器)**: Verified Contract on [Kitescan](https://testnet.kitescan.ai/address/0xDECEd7A01D61aCcE2C51F86f6a816757E762d1F0)  
+- **Contract Address **: `0xDECEd7A01D61aCcE2C51F86f6a816757E762d1F0`
+- **Network**: Kite AI Testnet (Chain ID: 2368)
+- **Explorer**: Verified Contract on [Kitescan](https://testnet.kitescan.ai/address/0xDECEd7A01D61aCcE2C51F86f6a816757E762d1F0)  
   (Click directly to view contract code, transaction records, etc.)
 
-### Local Development / 本地开发
+### Local Development 
 
 ```bash
 # Clone the repository (replace with your actual GitHub repo URL once created)
@@ -192,13 +192,13 @@ npm install
 npm run dev
 ```
 
-## 👥 5. Team / 团队成员
+## 👥 5. Team 
 
 We are a passionate, multi-disciplinary team building the future of Invisible Web3 experiences on Kite AI.
 
 We are a cross-disciplinary, passionate team dedicated to building seamless Web3 experiences on Kite AI.
 
-| Role / 角色                              | Name / 姓名          | X (Twitter)                          | Telegram             | Bio Snippet / 简介 |
+| Role                               | Name           | X (Twitter)                          | Telegram             | Bio Snippet  |
 |------------------------------------------|----------------------|--------------------------------------|----------------------|--------------------|
 | Product Strategist & Business Architect<br>产品战略与商业架构设计 | Alex Fan            | [@itsAlexFan](https://x.com/itsAlexFan) | @itsAlexFan         | Cornell University 
 | Project Design & Industry Analyst<br>项目核心构想设计与行业分析 | Riley琦琦           | [@rileyqiqi](https://x.com/rileyqiqi)   | @rrrileywang        | University of Edinburgh |
@@ -206,7 +206,7 @@ We are a cross-disciplinary, passionate team dedicated to building seamless Web3
 | Smart Contract Development & On-chain Integration<br>智能合约开发与链上集成 | Joe Chen            | [@cyz496](https://x.com/cyz496)         | @cydot0906          | The Hong Kong Polytechnic University (PolyU) |
 | Web3 Frontend Development & UI/UX<br>Web3前端开发 & UI/UX | 虎虎 (ToraInX)      | [@planning8848](https://x.com/planning8848) | —                | Tongji University |
 
-### Connect with the team / 联系我们
+### Connect with the team
 
 Feel free to reach out on X or Telegram for collaborations, feedback, or just to say hi! 🚀
 
