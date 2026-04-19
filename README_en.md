@@ -200,11 +200,11 @@ We are a cross-disciplinary, passionate team dedicated to building seamless Web3
 
 | Role                               | Name           | X (Twitter)                          | Telegram             | Bio Snippet  |
 |------------------------------------------|----------------------|--------------------------------------|----------------------|--------------------|
-| Product Strategist & Business Architect<br>产品战略与商业架构设计 | Alex Fan            | [@itsAlexFan](https://x.com/itsAlexFan) | @itsAlexFan         | Cornell University 
-| Project Design & Industry Analyst<br>项目核心构想设计与行业分析 | Riley琦琦           | [@rileyqiqi](https://x.com/rileyqiqi)   | @rrrileywang        | University of Edinburgh |
-| Technical Support & Product Promotion<br>技术支持与产品宣传 | Fred Huang          | [@FrankFred834567](https://x.com/FrankFred834567) | @frankhyn123     | The Hong Kong Polytechnic University (PolyU) |
-| Smart Contract Development & On-chain Integration<br>智能合约开发与链上集成 | Joe Chen            | [@cyz496](https://x.com/cyz496)         | @cydot0906          | The Hong Kong Polytechnic University (PolyU) |
-| Web3 Frontend Development & UI/UX<br>Web3前端开发 & UI/UX | 虎虎 (ToraInX)      | [@planning8848](https://x.com/planning8848) | —                | Tongji University |
+| Product Strategist & Business Architect<br> | Alex Fan            | [@itsAlexFan](https://x.com/itsAlexFan) | @itsAlexFan         | Cornell University 
+| Project Design & Industry Analyst<br> | Riley           | [@rileyqiqi](https://x.com/rileyqiqi)   | @rrrileywang        | University of Edinburgh |
+| Technical Support & Product Promotion<br>| Fred Huang          | [@FrankFred834567](https://x.com/FrankFred834567) | @frankhyn123     | The Hong Kong Polytechnic University (PolyU) |
+| Smart Contract Development & On-chain Integration<br> | Joe Chen            | [@cyz496](https://x.com/cyz496)         | @cydot0906          | The Hong Kong Polytechnic University (PolyU) |
+| Web3 Frontend Development & UI/UX<br>Web3 Front-end development & UI/UX | HuHu (ToraInX)      | [@planning8848](https://x.com/planning8848) | —                | Tongji University |
 
 ### Connect with the team
 
