@@ -4,7 +4,7 @@ OfferLock: Trustless Study Abroad Payment Protocol
 
 # Project Name
 
-中文版 (README_zh.md) | English (README_en.md)
+[English](README_en.md) | [Simplified Chinese](README_en.md)
 
 ---
 
