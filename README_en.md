@@ -200,9 +200,9 @@ We are a cross-disciplinary, passionate team dedicated to building seamless Web3
 
 | Role                               | Name           | X (Twitter)                          | Telegram             | Bio Snippet  |
 |------------------------------------------|----------------------|--------------------------------------|----------------------|--------------------|
-| Product Strategist & Business Architect<br> | Alex Fan            | [@itsAlexFan](https://x.com/itsAlexFan) | @itsAlexFan         | Cornell University 
-| Technical Support & Product Promotion<br>| Fred Huang          | [@FrankFred834567](https://x.com/FrankFred834567) | @frankhyn123     | The Hong Kong Polytechnic University (PolyU) |
-| Web3 Frontend Development & UI/UX<br>Web3 Front-end development & UI/UX | HuHu (ToraInX)      | [@planning8848](https://x.com/planning8848) | —                | Tongji University |
+| Product Strategy & Business Architecture<br> | Alex Fan            | [@itsAlexFan](https://x.com/itsAlexFan) | @itsAlexFan         | Cornell University 
+| Technical Lead & GTM<br>| Fred Huang          | [@FrankFred834567](https://x.com/FrankFred834567) | @frankhyn123     | The Hong Kong Polytechnic University (PolyU) |
+| Web3 Frontend & UI/UX<br>Web3 Front-end development & UI/UX | HuHu (ToraInX)      | [@planning8848](https://x.com/planning8848) | —                | Tongji University |
 
 ### Connect with the team
 
