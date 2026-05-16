@@ -113,7 +113,7 @@ Stage 3: 完美结案 (Enrollment) —— 释放 30%
 
 * Phase 1 — Protocol v1 & Validation: 核心合约审计、SDK 发布、1-2 家中介 PoC
 
-* Phase 2 (V2.0)— Traction & Replication: 3-5 个真实案例、可复制 SOP、区域扩展
+* Phase 2 — Traction & Replication: 3-5 个真实案例、可复制 SOP、区域扩展
 
 * Phase 3 — Ecosystem Expansion: 新场景（奖学金/教育资助）、DAO 治理探索
 
@@ -123,19 +123,19 @@ Built with a focus on **"Invisible Web3 Experience"**, we deeply leverage the co
 
 本项目专注于构建“无感 Web3 体验”，深度应用了 Kite AI 生态核心组件：
 
-- **Settlement Layer (结算层)**  
-  Deployed on Kite AI Testnet.  
-  Non-custodial escrow ensures platform-level security.  
-  **部署于 Kite AI 测试网，采用非托管协议确保资金不被平台挪用。**
-
-- **UX Innovation (体验层)**  
+- **Layer 1 前端层**  
   Integrated Kite Account Abstraction (AA) SDK for Gasless Payments.  
   Allows students to pay with USDT without holding native tokens.  
   **集成 Kite 账户抽象 SDK，通过 Paymaster 实现免 Gas 费支付，留学生无需持有原生代币即可完成。**
 
-- **Verification Layer (验证层)**  
+- **Layer 2 AI Oracle**  
   An LLM-based AI Oracle that converts off-chain PDF data into on-chain trust signals.  
   **基于大语言模型的 AI 预言机，将 PDF 录取通知书转化为链上可信信号，触发合约状态变更。**
+
+- **Layer 3 合约层**  
+  Deployed on Kite AI Testnet.  
+  Non-custodial escrow ensures platform-level security.  
+  **部署于 Kite AI 测试网，采用非托管协议确保资金不被平台挪用。**
 
 #### 合约验证与释放逻辑 / Contract Verification & Release Logic
 
