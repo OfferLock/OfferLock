@@ -50,6 +50,8 @@ OfferLock 是一款跨境教育支付的去中心化托管协议。通过 AI Ora
 - **40% Signing (签约启动)** : Funds released to secure the agreement and cover initial operations. / 签约即释放，保障服务正式启动及基础运营成本。
 - **30% AI Verified (AI 自动核验)** : Automatically released only when the **AI Oracle** validates the university offer letter's authenticity. / 当 **AI 预言机** 验证录取通知书真实性后自动释放，实现硬核风控。
 - **30% Completion (入学结案)** : Released upon successful enrollment to close the service loop. / 学生确认入学后释放尾款，确保服务最终闭环。
+  
+## 📖 2. 核心逻辑 / Core Logic
 
 ## 📖 2. 项目白皮书 & 核心逻辑 / Product Whitepaper & Core Logic
 
