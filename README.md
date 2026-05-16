@@ -35,9 +35,7 @@ Code is Law. Trustless Study Abroad Payment. 代码即法律。让留学支付�
 
 ## 🌟 1. Project Overview / 项目概述
 
-OfferLock is a decentralized escrow protocol designed for the **$50B study abroad service market**. By combining **AI Oracles** and **Kite AI Smart Contracts**, we solve the trust deficit between students and agencies through a risk-reversed payment model.
-
-OfferLock 是一款专为 **500 亿美元留学服务市场** 打造的去中心化托管协议。我们通过 **AI 预言机 (Oracle)** 与 **Kite AI 智能合约** 的结合，利用风险反转的支付模型，彻底解决留学生与中介机构之间的信任缺口。
+OfferLock 是一款跨境教育支付的去中心化托管协议。通过 AI Oracle 与智能合约，以风险反转模型解决留学生与中介的信任缺口。
 
 ### The 40-30-30 "Safety First" Model / 40-30-30 风险反转模型
 
