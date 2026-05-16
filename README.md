@@ -111,14 +111,11 @@ Stage 3: 完美结案 (Enrollment) —— 释放 30%
 
 ### 5. 路线图 (Roadmap)
 
-* Phase 1 (Hackathon MVP)：  
-  * 实现核心 40-30-30 资金流转。  
-  * 跑通 PDF 上传 -> AI 验证 -> 自动打款流程。  
-  * 完成 Kite AI 账户抽象集成。
+* Phase 1 — Protocol v1 & Validation: 核心合约审计、SDK 发布、1-2 家中介 PoC
 
-* Phase 2 (V2.0)：  
-  * SLA Editor：允许中介自定义分期比例（如 50-50）。  
-  * Reputation System：基于链上交付记录的中介信用评分体系。
+* Phase 2 (V2.0)— Traction & Replication: 3-5 个真实案例、可复制 SOP、区域扩展
+
+* Phase 3 — Ecosystem Expansion: 新场景（奖学金/教育资助）、DAO 治理探索
 
 ## 🛠 3. Technical Stack / 技术架构
 
