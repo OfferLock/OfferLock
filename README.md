@@ -21,17 +21,6 @@ Make Trust Visible | 让信任可见
 
 [![Demo Video](https://img.youtube.com/vi/TvpC55reank/maxresdefault.jpg)](https://youtu.be/TvpC55reank)
 
-## 演示文稿 (PPT)
-
-点击下方图片在线查看完整 PPT（Google Slides，可直接翻页、缩放、演示模式）：
-
-[![PPT 演示文稿封面](images/ppt-cover.png)](https://docs.google.com/presentation/d/1rDBksBbcsruE9Eu1aFiEAl0PmBiHjx8vF8pqxRf-1c4/view?usp=sharing)
-
-或者直接打开链接预览：
-[在线查看完整 PPT（推荐）](https://docs.google.com/presentation/d/1rDBksBbcsruE9Eu1aFiEAl0PmBiHjx8vF8pqxRf-1c4/view?usp=sharing)
-
-备用下载方式（原始文件，约 30 MB）：
-- [下载 .pptx 文件](https://docs.google.com/presentation/d/1rDBksBbcsruE9Eu1aFiEAl0PmBiHjx8vF8pqxRf-1c4/export/pptx)
 
 ## 🌟 1. Project Overview / 项目概述
 
