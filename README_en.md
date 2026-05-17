@@ -8,9 +8,9 @@ OfferLock: Trustless Study Abroad Payment Protocol
 
 ---
 
-## Zero-Risk Study Abroad Payment Escrow Protocol
+## Decentralized Escrow Protocol for Cross-Border Education Payments
 
-Code is Law. Trustless Study Abroad Payment. Code is Law. Eliminating trust crises in study abroad payments.
+Make Trust Visible
 
 [Kite AI Chain](https://img.shields.io/badge/Network-Kite%20AI%20Testnet-blue)
 
@@ -22,24 +22,10 @@ Click the image to watch the full demo (YouTube):
 
 [![Demo Video](https://img.youtube.com/vi/TvpC55reank/maxresdefault.jpg)](https://youtu.be/TvpC55reank)
 
-## Presentation (PPT)
-
-Click the image below to view the full PPT online (Google Slides, supports page turning, zooming, and presentation mode):
-
-[![PPT Presentation Cover](images/ppt-cover.png)](https://docs.google.com/presentation/d/1rDBksBbcsruE9Eu1aFiEAl0PmBiHjx8vF8pqxRf-1c4/view?usp=sharing)
-
-Or open the link directly to preview:
-[View Full PPT Online (Recommended)](https://docs.google.com/presentation/d/1rDBksBbcsruE9Eu1aFiEAl0PmBiHjx8vF8pqxRf-1c4/view?usp=sharing)
-
-Alternative download method (original file, ~30 MB):
-
-- [Download .pptx file](https://docs.google.com/presentation/d/1rDBksBbcsruE9Eu1aFiEAl0PmBiHjx8vF8pqxRf-1c4/export/pptx)
 
 ## 🌟 1. Project Overview / Project Overview
 
-OfferLock is a decentralized escrow protocol designed for the **$50B study abroad service market**. By combining **AI Oracles** and **Kite AI Smart Contracts**, we solve the trust deficit between students and agencies through a risk-reversed payment model.
-
-OfferLock is a decentralized escrow protocol specifically designed for the **$50 billion study abroad services market**. By combining **AI Oracle** with **Kite AI Smart Contracts** and utilizing a risk-reversal payment model, we fundamentally resolve the trust gap between international students and intermediary agencies.
+OfferLock is a decentralized escrow protocol for cross-border education payments. Combining AI Oracles with smart contracts, we solve the trust deficit between students and agencies through a risk-reversed payment model.
 
 ### The 40-30-30 "Safety First" Model / 40-30-30 
 
@@ -51,9 +37,9 @@ OfferLock is a decentralized escrow protocol specifically designed for the **$50
   <small>40% Signing → 30% AI Verification → 30% Enrollment Completion</small>
 </p>
 
-- **40% Signing ** : Funds released to secure the agreement and cover initial operations. /。
-- **30% AI Verified ** : Automatically released only when the **AI Oracle** validates the university offer letter's authenticity. / Once the **AI oracle** verifies the authenticity of the admission notice, it will be automatically released, achieving robust risk control.
-- **30% Completion** : Released upon successful enrollment to close the service loop. / The final payment is released after the student confirms enrollment, ensuring a complete service loop.
+- **40% Signing**: Funds released to secure the agreement and cover initial operations.
+- **30% AI Verified**: Automatically released only when the **AI Oracle** validates the university offer letter's authenticity.
+- **30% Completion**: Released upon successful enrollment to close the service loop.
 
 ## 📖 2. Product Whitepaper & Core Logic / 
 
