@@ -41,10 +41,9 @@ OfferLock is a decentralized escrow protocol for cross-border education payments
 - **30% AI Verified**: Automatically released only when the **AI Oracle** validates the university offer letter's authenticity.
 - **30% Completion**: Released upon successful enrollment to close the service loop.
 
-## 📖 2. Product Whitepaper & Core Logic / 
+## 📖 2. Core Logic
 
-**Code is Law. Trustless Study Abroad Payment.**  
-A programmable escrow protocol for study abroad funds based on the Kite AI chain, using code to rebuild payment trust in the $50 billion market.
+**A programmable escrow protocol for cross-border education funds built on smart contracts**
 
 ### 1. Why Are We Doing This? (Vision & Pain Points)
 
@@ -52,13 +51,15 @@ We are not building a simple payment tool; we are solving a "trust crisis."
 
 Pain Point One: Funds Exposed
 
-* In the traditional model, students must prepay 100% of the fees to the agency. If the agency disappears or provides subpar service, students face a total loss (industry refund dispute rate >15%).
+* In the traditional model, students must prepay 100% of the fees to the agency. If the agency disappears or provides subpar service, students face a total loss (service dispute complaint rate of 15-30%).
 * OfferLock Solution: Funds are not sent to the agency's pocket but are locked in an on-chain contract.
+
 
 Pain Point Two: No Delivery Standard
 
 * Agency services are "non-standardized products," making results difficult to quantify.
 * OfferLock Solution: Introduce an AI verification layer, making the Offer the sole trigger for fund release.
+
 
 Pain Point Three: Barrier Too High
 
@@ -77,9 +78,10 @@ Stage 1: Initiation & Signing (Initiation) —— Release 40%
 
 Stage 2: Core Delivery (The "AI Moment") —— Release 30%
 
-* Trigger Condition: AI Oracle verification passes (student uploads Offer PDF -> AI identifies authenticity -> triggers on-chain signal).
+* Trigger Condition: AI Oracle verification passes (Step 1 Document Upload (Admission Notice · Contract Terms) → Step 2 Semantic Recognition (AI extracts key fields) → Step 3 Multi-source Verification (Cross-check with official databases) → Step 4 On-chain Proof (Write to contract to trigger release)).
 * Fund Flow: 30% is released to the service provider.
 * Business Logic: This is the core value point of the service. "No rabbit, no eagle," completely eliminating false promises.
+<p align="center">
 
 <p align="center">
   <img src="images/AIverify.gif" 
@@ -91,57 +93,50 @@ Stage 3: Perfect Closure (Enrollment) —— Release 30%
 
 * Trigger Condition: Student confirms enrollment or the service period ends without dispute.
 * Fund Flow: The remaining 30% is released.
-* Business Logic: Ensures service completeness (assisting with visas, accommodation, and other follow-up matters), preventing "killing without burying."
+* Business Logic: Ensures service completeness (assisting with visas, accommodation, and other follow-up matters), preventing "abandonment after service."
 
-### 3. Legal & Compliance Engineering (Legal Engineering)
+### 3. Legal & Compliance Engineering
 
-Non-Custodial Funds: The OfferLock platform does not touch user funds. All funds are locked in smart contracts; only code logic (Code) can move funds. Platform failure does not affect user asset security.
+Non-Custodial Funds: The OfferLock platform does not touch user funds. All funds are locked in smart contracts; only code logic can move funds. Platform failure does not affect user asset security.
 
-### 4. Go-to-Market Strategy (Go-to-Market)
+### 4. Go-to-Market Strategy
 
 We do not attempt to convince arrogant traditional giants; we aim to empower challengers.
 
-* Target Customers: Independent study abroad consultants, boutique studios, Web3 community education institutions.
+* Target Customers: Overseas Chinese families and Web3-friendly boutique study-abroad agencies.
 * Core Value: "Trust as a Service".
   * For small and medium-sized agencies: Using OfferLock = gaining bank-level trust endorsement = reducing customer acquisition costs.
   * For students: Gaining 100% financial security.
 
 ### 5. Roadmap (Roadmap)
 
-* Phase 1 (Hackathon MVP):
-  * Implement the core 40-30-30 fund flow.
-  * Run through the PDF upload -> AI verification -> automatic payment process.
-  * Complete Kite AI Account Abstraction integration.
+* Phase 1 — Protocol v1 & Validation: Core contract audit, SDK release, 1-2 agency PoC pilots
+* Phase 2 — Traction & Replication: 3-5 live cases, repeatable SOP, regional expansion
+* Phase 3 — Ecosystem Expansion: New verticals (scholarships, grants), DAO governance exploration
 
-* Phase 2 (V2.0):
-  * SLA Editor: Allows agencies to customize installment ratios (e.g., 50-50).
-  * Reputation System: Agency credit scoring system based on on-chain delivery records.
-
-## 🛠 3. Technical Stack / Technical Architecture
+## 🛠 3. Technical Stack 
 
 Built with a focus on **"Invisible Web3 Experience"**, we deeply leverage the core components of the Kite AI ecosystem:
 
 This project focuses on building an "Invisible Web3 Experience," deeply utilizing the core components of the Kite AI ecosystem:
 
-- **Settlement Layer **  
-  Deployed on Kite AI Testnet.  
-  Non-custodial escrow ensures platform-level security.  
-  **Deployed on the Kite AI Testnet, utilizing a non-custodial protocol to ensure funds cannot be misappropriated by the platform.**
-
-- **UX Innovation**  
+- **Layer 1 Frontend**  
   Integrated Kite Account Abstraction (AA) SDK for Gasless Payments.  
   Allows students to pay with USDT without holding native tokens.  
-  **Integrated Kite Account Abstraction SDK, enabling gasless payments via Paymaster, allowing international students to complete transactions without holding native tokens.**
-
-- **Verification Layer**  
+  Integrated Kite Account Abstraction SDK, enabling gasless payments via Paymaster, allowing international students to complete transactions without holding native tokens.
+- **Layer 2 AI Oracle**  
   An LLM-based AI Oracle that converts off-chain PDF data into on-chain trust signals.  
-  **An AI Oracle based on a Large Language Model, converting PDF admission letters into on-chain trust signals to trigger contract state changes.**
+  An AI Oracle based on a Large Language Model, converting PDF admission letters into on-chain trust signals to trigger contract state changes.
+- **Layer 3 Contract Layer**  
+  Deployed on Kite AI Testnet.  
+  Non-custodial escrow ensures platform-level security.  
+  Deployed on the Kite AI Testnet, utilizing a non-custodial protocol to ensure funds cannot be misappropriated by the platform.
 
-#### Contract Verification & Release Logic / Contract Verification & Release Logic
+#### Contract Verification & Release Logic 
 
 The core release function `releaseNextMilestone` is called by the auditor and includes multiple verifications to ensure funds are only released to the intermediary when conditions are met.
 
-**🔍 Summary of Key Verification Points (verify section):**
+**🔍 Summary of Key Verification Points:**
 
 - `onlyAuditor`: Only the auditor can call this function (this is the primary "verification permission" control)
 - `onlyExistingOrder`: The order must exist
